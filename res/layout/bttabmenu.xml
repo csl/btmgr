@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <ImageView android:id="@+id/item_image"
+        android:src="@drawable/system" 
+		android:layout_centerHorizontal="true" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal">
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/InputPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="InputPower: 0w"
+            android:textSize="20sp" 
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+        android:id="@+id/OutPutEngery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutPutEngery: 0w"
+        android:textSize="20sp" 
+        android:layout_gravity="center_horizontal"
+        />
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/InputV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="InputVoltage: 0V"
+            android:textSize="20sp" 
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+        android:id="@+id/OutPutV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutPutVoltage: 0V"
+        android:textSize="20sp" 
+        android:layout_gravity="center_horizontal"
+        />
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/InputC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="InputCurrent: 0V"
+            android:textSize="20sp" 
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+        android:id="@+id/OutPutC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutPutCurrent: 0V"
+        android:textSize="20sp" 
+        android:layout_gravity="center_horizontal"
+        />
+        
+    </LinearLayout>
+        
+    
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/GridView_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </GridView>
+
+</RelativeLayout>

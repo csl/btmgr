@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+ <TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp" 
+        android:layout_gravity="center_horizontal"
+ />
+<Button
+	android:id="@+id/tc"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Tradiotional Chinese"
+	android:textSize="25sp"
+	android:layout_below="@+id/space"
+	android:layout_gravity="center_horizontal" />
+
+<Button
+	android:id="@+id/english"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="English"
+	android:textSize="25sp"
+	android:layout_below="@+id/tc"
+	android:layout_gravity="center_horizontal" />
+
+<Button
+	android:id="@+id/french"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="French"
+	android:textSize="25sp"
+	android:layout_below="@+id/english"
+	android:layout_gravity="center_horizontal" />
+
+<Button
+	android:id="@+id/greman"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="German"
+	android:textSize="25sp"
+	android:layout_below="@+id/french"
+	android:layout_gravity="center_horizontal" />
+
+	<Button
+	android:id="@+id/spanish"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Spanish"
+	android:textSize="25sp"
+	android:layout_below="@+id/greman"
+	android:layout_gravity="center_horizontal" />
+
+	<Button
+	android:id="@+id/greek"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Greek"
+	android:textSize="25sp"
+	android:layout_below="@+id/spanish"
+	android:layout_gravity="center_horizontal" />
+		
+    <GridView
+        android:id="@+id/GridView_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </GridView>
+
+
+</RelativeLayout>

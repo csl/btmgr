@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget38"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+<TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp" 
+        android:layout_gravity="center_horizontal"
+ />	
+
+<TextView
+	android:id="@+id/ds"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Device SN: xxxx"
+	android:textSize="20sp"
+	android:layout_below="@+id/space"
+	android:layout_gravity="center_horizontal"/>    
+
+
+<TextView
+	android:id="@+id/da"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Device Address : xxxxx"
+	android:textSize="20sp"
+	android:layout_below="@+id/ds"
+	android:layout_gravity="center_horizontal"
+/>
+
+
+<TextView
+	android:id="@+id/dt"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Device Type"
+	android:textSize="20sp"
+	android:layout_below="@+id/da"
+	android:layout_gravity="center_horizontal"
+	
+	/>
+
+<TextView
+	android:id="@+id/to"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Total Output kw"
+	android:textSize="20sp"
+	android:typeface="monospace"
+	android:textStyle="bold|italic"
+	android:layout_below="@+id/dt"
+	android:layout_gravity="center_horizontal"
+	/>
+
+<TextView
+	android:id="@+id/oe"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Output Engery (kw)"
+	android:textSize="20sp"
+	android:layout_below="@+id/to"
+	android:layout_gravity="center_horizontal"
+	/>
+
+<TextView
+	android:id="@+id/ov"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Output Voltage(V)"
+	android:textSize="20sp"
+	android:layout_below="@+id/oe"
+	android:layout_gravity="center_horizontal"
+	/>
+    
+<TextView
+	android:id="@+id/oc"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Output Current (I)"
+	android:textSize="20sp"
+	android:layout_below="@+id/ov"
+	android:layout_gravity="center_horizontal"
+	/>
+<TextView
+	android:id="@+id/tco"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Totoal Co2 Offset"
+	android:textSize="20sp"
+	android:layout_below="@+id/oc"
+	android:layout_gravity="center_horizontal"
+	
+	/>
+    
+<TextView
+	android:id="@+id/ear"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Earing"
+	android:layout_below="@+id/tco"
+	android:layout_gravity="center_horizontal"
+	android:textSize="20sp"/>
+
+    <GridView
+        android:id="@+id/GridView_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </GridView>
+
+
+</RelativeLayout>
